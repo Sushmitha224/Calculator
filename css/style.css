@@ -1,0 +1,79 @@
+body {
+  background: url("../images/backgroundImage.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 500px;
+  width: 340px;
+  margin-top: 75px;
+}
+
+.calculator {
+  border-radius: 10px;
+  background: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #6fa4cf;
+}
+
+#display {
+  width: 310px;
+  height: 70px;
+  font-size: 45px;
+  text-align: end;
+  font-weight: bold;
+  color: white;
+}
+
+#row1,
+#row2,
+#row3,
+#row4,
+#row5 {
+  width: 310px;
+  height: 70px;
+  padding: 5px;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  margin: 0px 5px;
+  justify-content: space-around;
+  border-radius: 100%;
+  border: none;
+  background: #333333;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#ans {
+  height: 130px;
+  border-radius: 38px;
+  position: absolute;
+}
+
+#zero {
+  width: 132px;
+  border-radius: 38px;
+}
+
+#ac,
+#perc,
+#div {
+  background: #a6a6a6;
+  color: black;
+}
+
+#add,
+#sub,
+#mult,
+#ans {
+  background: #ff9501;
+}
