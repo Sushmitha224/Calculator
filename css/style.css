@@ -1,9 +1,7 @@
 body {
-<<<<<<< HEAD
   background: url("../images/backgroundImage.webp");
   background-repeat: no-repeat;
   background-size: cover;
-=======
   background: url("../images/image1.jpg");
   background-repeat: no-repeat;
   background-size: inherit;
@@ -11,45 +9,35 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
->>>>>>> 0034fae (Initial commit)
 }
 
 .container {
   height: 500px;
-<<<<<<< HEAD
   width: 340px;
   margin-top: 75px;
-=======
   width: 350px;
->>>>>>> 0034fae (Initial commit)
 }
 
 .calculator {
   border-radius: 10px;
   background: black;
-<<<<<<< HEAD
-=======
   padding: 10px;
->>>>>>> 0034fae (Initial commit)
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
-<<<<<<< HEAD
   color: #6fa4cf;
 }
 
 #display {
   width: 310px;
-=======
   color: #fff;
   margin-bottom: 20px;
 }
 
 #display {
   width: 290px;
->>>>>>> 0034fae (Initial commit)
   height: 70px;
   font-size: 45px;
   text-align: end;
